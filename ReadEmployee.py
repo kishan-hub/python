@@ -1,0 +1,12 @@
+eno=int(input("Enter the employee no:"))
+ename=input("Enter Employee Name:")
+esal=float(input("Enter the Employee Salary:"))
+eaddr=input("Enter the employee address:")
+married=bool(input("Employee Married?[True|False]:"))
+
+print("Please confirm Information")
+print("Employee No:",eno)
+print("Employee Name:",ename)
+print("Employee Salary:",esal)
+print("Employee address:",eaddr)
+print("Employee Married?:",married)
